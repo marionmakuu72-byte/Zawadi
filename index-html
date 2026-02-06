@@ -19,9 +19,6 @@
             Zawadi, you are more than a friend — you are family.
             Thank you for always being there for me.
         </p>
-    </div> class="gallary">
-    <img src="images/bestie 1.jfif">
-    <img src="images/bestie 2.jfif">
 
     <button onclick="showMessage()">Click for a surprise 💌</button>
 
