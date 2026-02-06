@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to right, #90dbf4, #fad0c4);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    margin: 100px auto;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ff4d6d;
+}
+
+button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e63950;
+}
+.two-photos {
+    display: flex;              /* puts photos side by side */
+    justify-content: center;    /* centers them */
+    gap: 30px;                  /* space between them */
+    margin-top: 20px;
+}
+
+.two-photos img {
+    width: 220px;               /* image size */
+    height: 220px;              /* makes them equal */
+    object-fit: cover;          /* prevents stretching */
+    border-radius: 20px;        /* rounded corners */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.two-photos img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+audio {
+    display: block;
+    margin: 20px auto;
+}
